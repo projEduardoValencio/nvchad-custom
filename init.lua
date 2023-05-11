@@ -5,3 +5,4 @@ autocmd("VimResized", {
   pattern = "*",
   command = "tabdo wincmd =",
 })
+

@@ -73,7 +73,10 @@ local plugins = {
         require "plugins.configs.lspconfig"
         require "custom.configs.lspconfig"
      end,
-  }
+  },
+
+  -- Transparent
+  {"xiyaowong/transparent.nvim", lazy = false}
 
 }
 
