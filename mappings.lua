@@ -8,6 +8,8 @@ M.general = {
     ["<F3>"] = { ":lua vim.lsp.buf.format()<CR>", opts = { nowait = true } },
     ["§"] = {":vertical resize +5<CR>", opts = { nowait = true }},
     ["<C-A>-"] = {":vertical resize -5<CR>", opts = { nowait = true }},
+    ["<A-,>"] = {"<S-BS>"},
+    ["<A-.>"] = {"<BS>"}
 --    ["V"]= {api.node.open.vertical , opts = {"Split"}}
   },
 }
